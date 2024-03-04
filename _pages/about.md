@@ -6,7 +6,7 @@ subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: Shayan.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>304 Knowles Enbgineering Building</p>
