@@ -9,7 +9,7 @@ profile:
   image: Shayan.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>304 Knowles Enbgineering Building</p>
+    <p>Knowles Engineering Building 304</p>
     <p>151 Holdsworthway</p>
     <p>Amherst, MA, 01003</p>
 
