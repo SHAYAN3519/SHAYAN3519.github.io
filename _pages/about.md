@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='https://khwarizmilab.github.io'>Khwarizmi Lab UMass/</a>
+subtitle: <a href='https://khwarizmilab.github.io'>Khwarizmi Lab UMass</a>
 profile:
   align: right
   image: Shayan.jpg
@@ -17,4 +17,4 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
 
-I am PhD student at UMass Amherst, specializing in the development of advanced 5G edge IoT devices. My PhD is under the suoervision of Dr. Taqi Raza at Khwarzimi Lab.
+I am PhD student at UMass Amherst, specializing in the development of advanced 5G edge IoT devices. My PhD is under the suoervision of Dr. Taqi Raza at Khwarizmi Lab.
