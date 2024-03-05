@@ -152,6 +152,46 @@ class LearningSwitch (object):
     """
     The learning switch logic goes here.
     """
+    # Process incoming packets
+def handle_packet(self, event):
+    dst_address = packet.destination
+    src_address = packet.source
+    event_port = event.port
+
+    # Check if the destination is a multicast address
+    if dst_address.is_multicast:
+        self.flood()  # Send packet to all ports
+    elif dst_address not in self.address_to_port:
+        self.flood(f"Unknown port for {dst_address} -- broadcasting")
+    else:
+        out_port = self.address_to_port[dst_address]
+        
+        # Drop packet if it arrived on the same port it's destined for
+        if out_port == event_port:
+            log.warning(f"Packet loop detected from {src_address} to {dst_address} on port {out_port}. Dropping.")
+            self.drop_packet(10)  # Drop with a specific priority
+            return
+        
+        log.debug(f"Setting up forwarding from {src_address}.{event_port} to {dst_address}.{out_port}")
+        flow_setup_msg = of.ofp_flow_mod()
+        flow_setup_msg.match = of.ofp_match.from_packet(packet, event_port)
+        
+        # Special handling for TCP packets
+        tcp_packet = packet.find('tcp')
+        if tcp_packet:
+            flow_setup_msg.match.tp_src = tcp_packet.source_port
+            flow_setup_msg.match.tp_dst = tcp_packet.destination_port
+        
+        # Set timeouts for flow entry
+        flow_setup_msg.idle_timeout = 0
+        flow_setup_msg.hard_timeout = 0
+        
+        # Specify the action to be taken with this flow: output on a specific port
+        flow_setup_msg.actions.append(of.ofp_action_output(port=out_port))
+        flow_setup_msg.data = event.ofp
+        
+        # Send flow setup message to switch
+        self.connection.send(flow_setup_msg)
 
 
 class l2_learning (object):
