@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='#'>https://khwarizmilab.github.io/</a>
+subtitle: <a href='https://khwarizmilab.github.io'>Khwarizmi Lab UMass/</a>
 profile:
   align: right
   image: Shayan.jpg
