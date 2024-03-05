@@ -13,8 +13,8 @@ profile:
     <p>Amherst, MA, 01003</p>
 
 news: true # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+selected_papers: false # includes a list of papers marked as "selected={true}"
+social: false # includes social icons at the bottom of the page
 ---
 
 I am PhD student at UMass Amherst, specializing in the development of advanced 5G edge IoT devices. My PhD is under the suoervision of Dr. Taqi Raza at Khwarzimi Lab.
