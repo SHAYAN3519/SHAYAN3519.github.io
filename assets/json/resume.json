@@ -1,24 +1,39 @@
 {
+    "basics":{
     "name": "Muhammad Shayan Nazeer",
-    "location": "Amherst, MA 01002",
-    "contact": {
-        "email": "mnazeer@umass.edu",
-        "linkedin": "linkedin.com/in/m-shayan-nazeer",
-        "phone": "+1 (413)-466-1903"
+    "label": "Graduate Research Assistant",
+    "email": "mnazeer@umass.edu",
+    "phone": "(413) 466-1903",
+    "url": "mshayannazeer.github.io",
+    "location": {
+      "address": "151 Holdsworthway",
+      "postalCode": "MA 01003",
+      "city": "Amherst",
+      "countryCode": "US",
+      "region": "Massachusetts"
+    },
+        "profiles": [
+      {
+        "network": "LinkedIn",
+        "url": "https://www.linkedin.com/in/m-shayan-nazeer/"
+      }
+    ]
     },
     "education": [
         {
             "institution": "University of Massachusetts, Amherst",
-            "period": "Sept 2023 – present",
-            "degree": "Doctor of Philosophy (Ph.D.)",
+            "startDate": "Spet 2023",
+            "studyType": "Doctor of Philosophy (Ph.D.)",
             "location": "Amherst, MA, USA",
-            "major": "Electrical and Computer Engineering",
+            "area": "Electrical and Computer Engineering",
             "advisor": "Dr. Muhammad Taqi Raza"
         },
         {
             "institution": "National University of Sciences and Technology (NUST)",
-            "period": "Sept 2019 – Jun 2023",
-            "degree": "Bachelor of Electrical Engineering",
+            "startDate": "Sept 2019",
+            "endDate": "Jun 2023",
+            "studyType": "Bachelor of Engineering",
+            "area": "Electrical Engineering",
             "distinction": "Gold Medalist",
             "location": "Islamabad, Pakistan",
             "focus_area": "Embedded systems, Hardware Security, wireless communication",
@@ -32,45 +47,46 @@
             }
         }
     ],
-    "experience": [
+    "work": [
         {
-            "institution": "University of Massachusetts Amherst",
-            "period": "Sept 2023 – present",
+            "name": "University of Massachusetts Amherst",
+            "startDate": "Sept 2023",
             "position": "Graduate Research Assistant",
             "location": "Amherst, MA, USA",
-            "achievements": [
+            "summary": [
                 "Developed a distributed 5G core testbed on the POWDER platform by the University of Utah.",
                 "Separated user and control planes within the testbed for enhanced experimentation and comprehensive insights.",
                 "Testing developed testbed under various test cases by deploying simulated UEs (User Equipment) to evaluate distributed 5G core."
             ]
         },
         {
-            "institution": "EEG Research Lab SEECS",
-            "period": "Sept 2022 – Jul 2023",
+            "name": "EEG Research Lab SEECS",
+            "startDate": "Sept 2022",
+            "endDate": "Jul 2023",
             "position": "Research Assistant",
             "location": "Islamabad, Pakistan",
             "project_title": "A Brain-Computer Interface (BCI) Enabled Motion Intent Recognition System for Assistive Robotics",
-            "achievements": [
+            "summary": [
                 "Won a research grant of PKR 1 million for the project from my university.",
                 "Trained and developed an EEG classifier using parallel CNNs and RNNs to predict the intention of left, right, up, and down movements with the accuracy of 89%.",
                 "Integrated a robotic arm to be controlled using prediction from EEG classifier."
             ]
         },
         {
-            "institution": "RADWI Pvt. Ltd.",
-            "period": "Apr 2021 – Oct 2021",
+            "name": "RADWI Pvt. Ltd.",
+            "startDate": "Apr 2021",
+            "endDate": "Oct 2023",
             "position": "Home Automation Engineer (Internship)",
             "location": "Islamabad, Pakistan",
-            "achievements": [
+            "summary": [
                 "Designed and developed various home automation devices including smart switches and automated lights.",
                 "Prototyped complete working system for IoT-enabled electronic door lock.",
                 "Developed a specialized PCB for each device using Altium Designer.",
                 "Integrated smart home devices with AWS IoT core to allow for connectivity through smartphones over the internet."
-            ],
-            "products_link": "Company's website link not provided"
+            ]
         }
     ],
-    "technical_skills": {
+    "skills": {
         "programming_languages": [
             "C",
             "C++",
@@ -92,7 +108,7 @@
             "Project Documentation"
         ]
     },
-    "honors_and_awards": [
+    "awards": [
         "2017 INTEL ISEF, Finalist, National Level",
         "2018 National Physics Talent Conquest, selected among top 50 students all over Pakistan",
         "2022 IEEE Instrumentation and Measurement Competition, Runner up",
