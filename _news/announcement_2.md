@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Selected for the student travel grant to attend ACNS 2024.
+Recieved student travel grant for attending ACNS 2024.
