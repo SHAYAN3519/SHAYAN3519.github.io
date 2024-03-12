@@ -85,35 +85,8 @@
                 "Integrated smart home devices with AWS IoT core to allow for connectivity through smartphones over the internet."
             ]
         }
-    ],
-    "skills": {
-        "programming_languages": [
-            "C",
-            "C++",
-            "Python",
-            "JavaScript"
-        ],
-        "engineering_tools": [
-            "MATLAB",
-            "Proteus",
-            "Altium Designer",
-            "Quartus",
-            "Mbed Studio",
-            "Arduino"
-        ],
-        "hardware_description_language": "Verilog HDL",
-        "research": [
-            "Literature Review",
-            "Writing Project Proposals",
-            "Project Documentation"
-        ]
-    },
-    "awards": [
-        "2017 INTEL ISEF, Finalist, National Level",
-        "2018 National Physics Talent Conquest, selected among top 50 students all over Pakistan",
-        "2022 IEEE Instrumentation and Measurement Competition, Runner up",
-        "2022 CSAW Logic Locking Conquest, Runner up, Global level (Organized by New York University)",
-        "2023 NUST High Achiever’s Award, Gold Medal",
-        "2023 Rectors Gold Medal, best final year project in the batch"
     ]
+    
+
+
 }
