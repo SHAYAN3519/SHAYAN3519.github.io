@@ -22,7 +22,7 @@
     "education": [
         {
             "institution": "University of Massachusetts, Amherst",
-            "startDate": "Spet 2023",
+            "startDate": "2023.09",
             "studyType": "Doctor of Philosophy (Ph.D.)",
             "location": "Amherst, MA, USA",
             "area": "Electrical and Computer Engineering",
@@ -30,8 +30,8 @@
         },
         {
             "institution": "National University of Sciences and Technology (NUST)",
-            "startDate": "Sept 2019",
-            "endDate": "Jun 2023",
+            "startDate": "2019.09",
+            "endDate": "2023.06",
             "studyType": "Bachelor of Engineering",
             "area": "Electrical Engineering",
             "distinction": "Gold Medalist",
@@ -50,7 +50,7 @@
     "work": [
         {
             "name": "University of Massachusetts Amherst",
-            "startDate": "Sept 2023",
+            "startDate": "2023.09",
             "position": "Graduate Research Assistant",
             "location": "Amherst, MA, USA",
             "summary": [
@@ -61,8 +61,8 @@
         },
         {
             "name": "EEG Research Lab SEECS",
-            "startDate": "Sept 2022",
-            "endDate": "Jul 2023",
+            "startDate": "2022.09",
+            "endDate": "2023.06",
             "position": "Research Assistant",
             "location": "Islamabad, Pakistan",
             "project_title": "A Brain-Computer Interface (BCI) Enabled Motion Intent Recognition System for Assistive Robotics",
@@ -74,8 +74,8 @@
         },
         {
             "name": "RADWI Pvt. Ltd.",
-            "startDate": "Apr 2021",
-            "endDate": "Oct 2023",
+            "startDate": "2021.04",
+            "endDate": "2023.10",
             "position": "Home Automation Engineer (Internship)",
             "location": "Islamabad, Pakistan",
             "summary": [
